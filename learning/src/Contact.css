@@ -1,0 +1,77 @@
+/* CONTACT */
+.contact{
+    background-image: url(./assets/images/contact.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-full{
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.contact-full h1{
+    display: inline;
+    padding-top: 70px;
+    color:#8B5CF6;
+    font-size: 21px;
+    text-align: center;
+}
+.contact-card{
+    height: 550px;
+    width: 800px;
+    margin-top: 30px;
+    background-color: #4c4c50;
+    border-radius: 20px;
+    backface-visibility: visible;
+}
+    .contact-bg{
+        text-align: center;
+        margin: 30px;
+    }
+    .contact-bg > h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: #8B5CF6;
+    }
+.contact-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    text-align: center;
+}
+.card-content input[type="text"] {
+  width: 780px;                 
+  padding: 12px 20px;
+  margin-top: 20px;                           
+  box-sizing: border-box;      
+  border: 2px solid #ccc;       
+  border-radius: 10px;           
+  font-size: 12px;              
+  background-color: #4c4c50; 
+  backface-visibility: visible; 
+}
+.contact-card input:nth-of-type(4) {
+    padding-bottom:200px ;
+    margin-bottom: 20px;
+}
+.card-content button{
+    height: 40px;
+    width: 780px;
+    font-size: 18px;
+}
+.card-content button:hover{
+    transform: none;
+}
+
+.card-content input::placeholder{
+    color: white;
+    font-size: 18px;
+    opacity: 0.3;
+}

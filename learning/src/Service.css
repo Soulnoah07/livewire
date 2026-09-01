@@ -1,0 +1,53 @@
+/* SERVICE */
+
+.Services{
+    height:max-content;
+    background-image: url(./assets/images/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ser-bg{
+    margin: 50px 0;
+}
+.ser-bg h1{
+    display: inline;
+    margin-top:  50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f82ed;
+}
+.ser-container{
+    height: 300px;
+    width: 280px;
+    background-color: #4c4c50;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 1s;
+}
+.ser-container:hover{
+    box-shadow: 0 0 10px 1px #0f82ed;
+    transform: scale(1.1);
+}
+.full-ser{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+}
+.ser-card {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.ser-card h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.ser-card p{
+    font-size: 15px;
+    width: 240px;
+}
