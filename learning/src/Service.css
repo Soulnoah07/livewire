@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -26,7 +26,6 @@
     width: 280px;
     background-color: #4c4c50;
     margin-top: 20px;
-    display: inline-block;
     transition: all 1s;
 }
 .ser-container:hover{
@@ -35,7 +34,10 @@
 }
 .full-ser{
     display:flex;
+    flex-wrap: wrap;
     gap: 50px;
+    margin: 30px 0px;
+    justify-content: center;
     align-items: center;
 }
 .ser-card {
