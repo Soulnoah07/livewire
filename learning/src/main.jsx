@@ -7,6 +7,7 @@ import './Projects.css'
 import './Service.css'
 import './Skills.css'
 import './Footer.css'
+import './Responsive.css'
 
 import App from './App.jsx'
 

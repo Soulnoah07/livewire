@@ -1,0 +1,113 @@
+@media screen and (max-width:340px) {
+    .navbar{
+        padding: 10px 10px 10px 10px;
+    }
+    .ser-bg h1{
+        font-size: 1.5rem;
+        }
+   
+        .full-ser{
+            margin: 0px;
+         }
+}
+@media  screen and (max-width:760px) {
+    .navbar-list{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .navbar svg{
+        display: block;
+    }
+    .side-navbar{
+        display: block;
+    }
+} 
+@media screen and (min-width:761px) {
+    .navbar-list{
+        margin-right: 10px
+    }
+    .main-content{
+        font-size: 1.5rem;
+        align-items:start ;
+    }
+    .full-about{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about-container1{
+        margin: 30px;
+        font-size: 1.5rem;
+    }
+    .about-container2{
+        margin: 30px;
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about-container1 a{
+        font-size: 1rem;
+    }
+    .about-container1 p{
+        width: 500px;
+    }
+    .about-container1 td{
+        font-size:1.2rem ;
+    }
+    .skill-images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .skill-container > h2{
+        font-size: 2.5rem;
+    }
+    .pro-con1 > h1{
+        font-size: 2.5rem;
+    }
+    .pro-con2{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .pro-card{
+        margin-left: 20px;
+    }
+    .ser-bg{
+        text-align: center;
+    }
+    .ser-bg{
+        font-size: 1.25em;
+    }
+
+    .contact-bg{
+        font-size: 1.25rem;
+    }
+
+
+    .full-ser{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+    .ser-container{
+        margin-left: 40px;
+    }
+    .contact-card{
+        width: 600px;
+    }
+    .card-content input[type="text"] {
+        width: 500px;
+    }
+}
+
+

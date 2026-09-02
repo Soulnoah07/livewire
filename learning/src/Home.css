@@ -10,8 +10,7 @@
 }
 .full-about{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     padding: 40px;
 }
@@ -23,34 +22,32 @@
     margin: 15px 0px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 18px;
-    width: 500px;
+    width: 250px;
 }
 .about-container1 h2{
     display: inline-block;
-    font-weight: 600;
-    color: #0f82ed;
+    margin: 15px 0px;
+    color: #8B5CF6;
 }
 .about-container1 a{
     display: inline-block;
     padding: 5px 0px 5px 10px;
-    width: 125px;
+    width: 115px;
     margin: 15px 0px;
-    font-weight: 600;
+    font-weight: 800;
     border-radius: 10px;
-    background-color:#0f82ed;
+    background-color: #A855F7;
 }
 .about-container2{
     padding-bottom: 30px;
-    display: flex;
     align-items: center;
 }
 .about-container2  img{
     border-radius: 10px;
     height : 250px;
     width:250px;
-    margin: 30px 150px 30px 0px;
-    box-shadow: 0 0 12px 1px #0f82ed;
+    margin: 30px 0px 30px 0px;
+    box-shadow: 0 0 12px 1px #8B5CF6;
 }
 table{
     margin: 15px 0px;
@@ -58,23 +55,23 @@ table{
    
 }
 td{
-    padding-right: 30px;
-    font-size: 18px;
+    padding-right: 5px;
+    font-size: 14px;
 }
 .card{
     background:#4c4c50;
     text-align: center;
     border-radius:20px;
     margin-bottom: 35px;
+    padding: 20px 0px;
     transition: all 1s;
     width:250px;
     
 }
 .card:hover{
-    box-shadow: 0 0 22px 1px #0f82ed;
+    box-shadow: 0 0 22px 1px #8B5CF6;
     transform: scale(1.1);
-    cursor: pointer;
 }
 .con2  div{
-    color: white;
+    color: black;
 }
