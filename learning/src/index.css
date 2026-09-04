@@ -104,28 +104,5 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-.main-content{
-    margin: 200px 40px;
-    display: inline-block;
-    font-size: 14px;
-}
-.myname{
-    color: #0f82ed;
-    font-weight: 600
-}
-.nickname{
-    color: #0f82ed;
-    font-weight: 600;
-}
-.domain{
-    color: #0f82ed;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-.main-content p {
-    margin-top: 10px;
-    font-size: 17px;
-}
-
